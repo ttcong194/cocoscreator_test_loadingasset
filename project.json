@@ -1,0 +1,8 @@
+{
+  "engine": "cocos2d-html5",
+  "packages": "packages",
+  "version": "2.4.2",
+  "name": "TestLoadingAsset",
+  "id": "602cdcd8-601a-4f1a-a58a-4efd9b8a7324",
+  "isNew": false
+}

@@ -1,0 +1,46 @@
+{
+  "ver": "1.2.0",
+  "uuid": "f49e3cbe-7188-4000-a7c5-a96857adbef9",
+  "maxWidth": 1024,
+  "maxHeight": 1024,
+  "padding": 2,
+  "allowRotation": true,
+  "forceSquared": false,
+  "powerOfTwo": false,
+  "algorithm": "MaxRects",
+  "format": "png",
+  "quality": 80,
+  "contourBleed": true,
+  "paddingBleed": true,
+  "filterUnused": false,
+  "packable": false,
+  "premultiplyAlpha": false,
+  "filterMode": "bilinear",
+  "platformSettings": {
+    "android": {
+      "formats": [
+        {
+          "name": "png",
+          "quality": 80
+        }
+      ]
+    },
+    "default": {
+      "formats": [
+        {
+          "name": "png",
+          "quality": 80
+        }
+      ]
+    },
+    "ios": {
+      "formats": [
+        {
+          "name": "pvrtc_4bits",
+          "quality": "best"
+        }
+      ]
+    }
+  },
+  "subMetas": {}
+}
