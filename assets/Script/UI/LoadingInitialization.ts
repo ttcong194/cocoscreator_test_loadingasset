@@ -18,6 +18,8 @@ export default class LoadingInitialization extends cc.Component {
 
         let Loader:any = cc.loader;
         console.log("LoadingInitialization.onLoad2:",Object.keys(Loader._cache).length);
+        //let url = "Atlas/atlas_ui_loading"; //th thay sprite trong scene den atlas dc tao ra boi texturepacker
+        //kiem tra xem so luong resource co bi load them khong => khong thay doi
         let url = "Sprite/LargeTestImage1";
         //TH khi khong load texture truoc, ma next sang scene tiep theo co su dung texture trong 
         //sprite thi se mat nhieu thoi gian
